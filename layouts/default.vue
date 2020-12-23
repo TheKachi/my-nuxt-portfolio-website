@@ -2,7 +2,7 @@
   <div>
 
     <!--Navigation-->
-    <Navigation />
+    <Header />
 
     <!-- Content -->
     <nuxt />
@@ -14,10 +14,10 @@
 
 <script>
 
-import Navigation from "@/components/Navigation.vue";
+import Header from '../components/Header'
 export default {
   components: {
-    Navigation
+    Header
   }
 }
 </script>

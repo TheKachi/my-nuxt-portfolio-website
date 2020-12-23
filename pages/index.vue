@@ -1,11 +1,18 @@
 <template>
-  <h1>Home</h1>
+
+ <Layout>  
+   <Hero />
+ </Layout>
+ 
 </template>
 
 <script>
 
+import Hero from '../components/Hero'
 export default {
-  
+  components: {
+    Hero
+  }
 }
 </script>
 
