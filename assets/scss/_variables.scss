@@ -1,0 +1,9 @@
+$lavender: #b38dd3;// #755B69;
+$black: #1b1b2f;//#0B0014;
+$white: #FFF;
+$grey: #AFB0AB;
+
+@mixin easeOut {
+    transition: all 0.3s ease 0s;
+}
+

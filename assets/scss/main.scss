@@ -1,0 +1,95 @@
+@import 'variables'; 
+
+/*BASE*/
+html {
+    box-sizing: border-box;
+    border: 3px solid $black;;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+html, 
+body {
+   
+    font-family: 'Raleway', sans-serif;
+    color: $black;
+    padding: 0;
+    margin: 0; 
+    border: 3px solid $black;
+
+    // line-height: 1.5;
+    // width: 100%;
+}
+
+body { 
+    // background-color: $lavender;
+    background: rgb(179,141,211);
+    background: linear-gradient(90deg, rgba(179,141,211,1) 47%, rgba(2,0,36,1) 100%);
+    background-size: cover;
+    
+}
+    
+header {
+    font-family: 'Poppins';
+    // width: 100%;
+    display: flex;
+    padding: 1rem 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .nav__links {
+    list-style-type: none;      
+    }
+    
+    .nav__links li{
+        display: inline-block;
+        padding: 0 1rem;
+        font-weight: 100;
+    }
+    
+    a {
+    text-decoration: none;  
+    color: $white; 
+
+    &:hover {
+        @include easeOut();
+        color: $grey;
+    }
+    }
+
+    .logo {
+        text-decoration: none;
+        color: $white;
+        cursor: pointer;
+    }
+
+.btn a {
+    padding: 0.5rem 1rem;
+    border: 1px solid $white;
+}
+
+h1 {
+    font-size: 52px;
+    margin-bottom: 0;
+} 
+section {
+    display: flex;
+    padding: 1rem;
+
+}
+
+    
+    
+
+
+
+   
+
+
+
+
